@@ -1,5 +1,5 @@
 
-CONTENTS OF THIS FILE - SAMO CSKA #1
+CONTENTS OF THIS FILE - SAMO CSKA !!!
 ---------------------
 
  * About Drupal
