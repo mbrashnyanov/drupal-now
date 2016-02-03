@@ -1,0 +1,6 @@
+name = Content type Article
+description = This modules includes the article content type and all related functionality
+core = 7.x
+package = Features
+version = 7.x-1.0
+features[features_api][] = api:2
