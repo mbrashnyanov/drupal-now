@@ -1,0 +1,11 @@
+name = Devel generate Ipsum
+description = Use different Lorem Ipsum dictionaries with the devel generate module.
+package = Development
+dependencies[] = devel_generate
+core = 7.x
+; Information added by Drupal.org packaging script on 2015-02-24
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "devel_generate_ipsum"
+datestamp = "1424810881"
+
