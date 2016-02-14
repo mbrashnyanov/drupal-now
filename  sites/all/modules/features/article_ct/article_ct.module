@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Article CT feature.
+ */
+
+include_once 'article_ct.features.inc';

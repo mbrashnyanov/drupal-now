@@ -10,13 +10,15 @@
 function content_type_article_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'field_body'.
-  $field_bases['field_body'] = array(
+  // Exported field_base: 'body'.
+  $field_bases['body'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_body',
+    'entity_types' => array(
+      0 => 'node',
+    ),
+    'field_name' => 'body',
     'indexes' => array(
       'format' => array(
         0 => 'format',
@@ -26,7 +28,7 @@ function content_type_article_field_default_field_bases() {
     'module' => 'text',
     'settings' => array(),
     'translatable' => 0,
-    'type' => 'text_long',
+    'type' => 'text_with_summary',
   );
 
   // Exported field_base: 'field_image'.
@@ -44,20 +46,39 @@ function content_type_article_field_default_field_bases() {
     'locked' => 0,
     'module' => 'image',
     'settings' => array(
-      'default_image' => FALSE,
+      'default_image' => 0,
       'uri_scheme' => 'public',
     ),
     'translatable' => 0,
     'type' => 'image',
   );
 
-  // Exported field_base: 'field_pmapproach'.
-  $field_bases['field_pmapproach'] = array(
+  // Exported field_base: 'field_summary_'.
+  $field_bases['field_summary_'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_summary_',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'text_with_summary',
+  );
+
+  // Exported field_base: 'field_tags'.
+  $field_bases['field_tags'] = array(
     'active' => 1,
     'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_pmapproach',
+    'field_name' => 'field_tags',
     'indexes' => array(
       'tid' => array(
         0 => 'tid',
@@ -68,7 +89,7 @@ function content_type_article_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         0 => array(
-          'vocabulary' => 'pm_approach',
+          'vocabulary' => 'article_categories',
           'parent' => 0,
         ),
       ),
@@ -77,29 +98,10 @@ function content_type_article_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_teaser'.
-  $field_bases['field_teaser'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_teaser',
-    'indexes' => array(
-      'format' => array(
-        0 => 'format',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'text',
-    'settings' => array(),
-    'translatable' => 0,
-    'type' => 'text_long',
-  );
-
   // Exported field_base: 'field_technology'.
   $field_bases['field_technology'] = array(
     'active' => 1,
-    'cardinality' => -1,
+    'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_technology',
@@ -113,34 +115,13 @@ function content_type_article_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         0 => array(
-          'vocabulary' => 'technology',
+          'vocabulary' => 'technology_',
           'parent' => 0,
         ),
       ),
     ),
     'translatable' => 0,
     'type' => 'taxonomy_term_reference',
-  );
-
-  // Exported field_base: 'field_title_new'.
-  $field_bases['field_title_new'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_title_new',
-    'indexes' => array(
-      'format' => array(
-        0 => 'format',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'text',
-    'settings' => array(
-      'max_length' => 80,
-    ),
-    'translatable' => 0,
-    'type' => 'text',
   );
 
   // Exported field_base: 'title_field'.
@@ -158,7 +139,7 @@ function content_type_article_field_default_field_bases() {
     'locked' => 0,
     'module' => 'text',
     'settings' => array(
-      'max_length' => 255,
+      'max_length' => 80,
     ),
     'translatable' => 1,
     'type' => 'text',

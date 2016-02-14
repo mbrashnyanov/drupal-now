@@ -9,10 +9,10 @@
  */
 function content_type_article_taxonomy_default_vocabularies() {
   return array(
-    'pm_approach' => array(
-      'name' => 'PM approach',
-      'machine_name' => 'pm_approach',
-      'description' => 'Listing terms related to the PM approach used on the website',
+    'article_categories' => array(
+      'name' => 'Approach',
+      'machine_name' => 'article_categories',
+      'description' => 'categories for Article content type',
       'hierarchy' => 0,
       'module' => 'taxonomy',
       'weight' => 0,
@@ -32,10 +32,10 @@ function content_type_article_taxonomy_default_vocabularies() {
         ),
       ),
     ),
-    'technology' => array(
+    'technology_' => array(
       'name' => 'Technology',
-      'machine_name' => 'technology',
-      'description' => 'Listing terms about the taxonomies ',
+      'machine_name' => 'technology_',
+      'description' => '',
       'hierarchy' => 0,
       'module' => 'taxonomy',
       'weight' => 0,
