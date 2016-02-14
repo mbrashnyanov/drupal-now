@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1
 CKEditor WebSpellChecker Plugin
 ===============================
 
@@ -24,6 +27,7 @@ Licensed under the terms of any of the following licenses at your choice: [GPL](
 See LICENSE.md for more information.
 
 Developed in cooperation with [WebSpellChecker.net](http://www.webspellchecker.net/).
+<<<<<<< HEAD
 =======
 CKEditor WebSpellChecker Plugin
 ===============================
@@ -51,3 +55,5 @@ See LICENSE.md for more information.
 
 Developed in cooperation with [WebSpellChecker.net](http://www.webspellchecker.net/).
 >>>>>>> b20e1010edfe7f4163abd6cf9c41e89468fdd302
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1

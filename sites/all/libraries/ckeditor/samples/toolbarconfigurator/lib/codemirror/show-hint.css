@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1
 .CodeMirror-hints {
   position: absolute;
   z-index: 10;
@@ -37,6 +40,7 @@ li.CodeMirror-hint-active {
   background: #08f;
   color: white;
 }
+<<<<<<< HEAD
 =======
 .CodeMirror-hints {
   position: absolute;
@@ -77,3 +81,5 @@ li.CodeMirror-hint-active {
   color: white;
 }
 >>>>>>> b20e1010edfe7f4163abd6cf9c41e89468fdd302
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1

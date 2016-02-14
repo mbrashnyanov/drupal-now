@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1
 SCAYT plugin for CKEditor 4 Changelog
 ====================
 ### CKEditor 4.5.6
@@ -19,6 +22,7 @@ Fixed issues:
 * SCAYT stops working when CKEditor Undo plug-in not enabled
 * Issue with pasting SCAYT markup in CKEditor
 * SCAYT stops working after pressing Cancel button in WSC dialog
+<<<<<<< HEAD
 =======
 SCAYT plugin for CKEditor 4 Changelog
 ====================
@@ -41,3 +45,5 @@ Fixed issues:
 * Issue with pasting SCAYT markup in CKEditor
 * SCAYT stops working after pressing Cancel button in WSC dialog
 >>>>>>> b20e1010edfe7f4163abd6cf9c41e89468fdd302
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1

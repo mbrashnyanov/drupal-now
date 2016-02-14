@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1
 Font license info
 
 
@@ -9,6 +12,7 @@ Font license info
    Author:    Dave Gandy
    License:   SIL ()
    Homepage:  http://fortawesome.github.com/Font-Awesome/
+<<<<<<< HEAD
 =======
 Font license info
 
@@ -21,3 +25,5 @@ Font license info
    License:   SIL ()
    Homepage:  http://fortawesome.github.com/Font-Awesome/
 >>>>>>> b20e1010edfe7f4163abd6cf9c41e89468fdd302
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1

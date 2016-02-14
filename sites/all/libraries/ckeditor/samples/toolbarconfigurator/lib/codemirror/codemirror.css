@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1
 /* BASICS */
 
 .CodeMirror {
@@ -324,6 +327,7 @@ div.CodeMirror-cursors {
 
 /* Help users use markselection to safely style text background */
 span.CodeMirror-selectedtext { background: none; }
+<<<<<<< HEAD
 =======
 /* BASICS */
 
@@ -651,3 +655,5 @@ div.CodeMirror-cursors {
 /* Help users use markselection to safely style text background */
 span.CodeMirror-selectedtext { background: none; }
 >>>>>>> b20e1010edfe7f4163abd6cf9c41e89468fdd302
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1

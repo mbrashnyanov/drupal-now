@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1
 ﻿/**
  * Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md or http://ckeditor.com/license
@@ -47,6 +50,7 @@ CKEDITOR.dialog.add( 'myDialog', function() {
 	};
 } );
 
+<<<<<<< HEAD
 =======
 ﻿/**
  * Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
@@ -97,3 +101,5 @@ CKEDITOR.dialog.add( 'myDialog', function() {
 } );
 
 >>>>>>> b20e1010edfe7f4163abd6cf9c41e89468fdd302
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1

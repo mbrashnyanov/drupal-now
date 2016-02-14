@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1
 <!DOCTYPE html>
 <?php
 /*
@@ -58,6 +61,7 @@ if (!empty($_POST))
 	</div>
 </body>
 </html>
+<<<<<<< HEAD
 =======
 <!DOCTYPE html>
 <?php
@@ -119,3 +123,5 @@ if (!empty($_POST))
 </body>
 </html>
 >>>>>>> b20e1010edfe7f4163abd6cf9c41e89468fdd302
+=======
+>>>>>>> cda77a249a7b6df57c768064119254b1c0444ee1
