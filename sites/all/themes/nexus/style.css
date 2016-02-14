@@ -55,20 +55,17 @@ body {
 
 /* Links */
 a {
-  color: #0033ff;
-  font-weight: bold;
+  color: #f4473a;
 
 }
 a:visited {
-  color: #0033ff;
-  font-weight: bold;
+  color: #f4473a;
 }
-/*links on listing*/
 a:hover,
 a:focus,
 a:active {
-  color:#0066ff;
-  font-weight: bold;
+  color:#000;
+  text-decoration: none;
 }
 
 /*set max img width*/
@@ -289,7 +286,7 @@ h1#site-title{
   clear: none;
 }
 h1#site-title a:link, h1#site-title a:visited{
-  color: #ff33cc;
+  color: #000;
 }
 
 /* Menu */
@@ -345,7 +342,7 @@ h1#site-title a:link, h1#site-title a:visited{
 }
 
 #main-menu li a:hover, #main-menu li a:active, #main-menu a.active, #main-menu > ul > li > a.active-trail {
-  color: #0033ff;
+  color: #ed564b;
 }
   
 #main-menu li a.sf-with-ul {
@@ -370,7 +367,7 @@ h1#site-title a:link, h1#site-title a:visited{
 
   
 #main-menu li ul li a:hover ,#main-menu li ul li ul li a:hover ,#main-menu li ul li ul li ul li a:hover {
-  color: #0033ff;
+  color: #ed564b;
 }
 
 #main-menu li ul {
@@ -486,9 +483,9 @@ a.frmore{
 }
 
 #preface-area {
-  background: none repeat scroll 0 0 #0033ff;
-  border-bottom: 5px solid #66ccff;
-  border-top: 5px solid #66ccff;
+  background: none repeat scroll 0 0 #ED564B;
+  border-bottom: 5px solid #F96B61;
+  border-top: 5px solid #F96B61;
   padding: 40px 0 20px;
 }
 
@@ -511,7 +508,7 @@ a.frmore{
 #bottom{
   padding: 20px 0px 40px 0px;
   background: #3b3b3b;
-  border-top:5px solid #0033ff;
+  border-top:5px solid #ed564b;
 }
  
 .footer-block{
@@ -536,7 +533,7 @@ a.frmore{
 
 .fcred{
   padding: 10px 0px;
-  color: #fff;
+  color: #bbb;
 }
 
 .fcred a:link, .fcred a:visited{
@@ -905,8 +902,6 @@ ol.search-results { padding-left: 0; }
 ul.menu li {
   margin: 0;
   padding: 0;
-
-  list-style:none;
 }
 
 ul.inline {
@@ -998,7 +993,7 @@ ul.inline, ul.links.inline {
 }
 
 .field-name-field-tags a{
-  background: #0033ff;
+  background: #ed564b;
   margin-right: 5px;
   margin-bottom: 5px;
   border-radius: 2px;
@@ -1157,7 +1152,6 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 
   #main-menu{
     display:none;
-	
   }
     
   .flex-caption{

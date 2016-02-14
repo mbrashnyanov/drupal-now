@@ -72,7 +72,7 @@
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a></div><?php endif; ?>
         <h1 id="site-title">
-          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php //print $site_name; ?></a>
+          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
         </h1>
       </div>
       <div class="col-sm-6 mainmenu">
@@ -213,16 +213,16 @@
     <div id="bottom">
       <div class="container">
         <div class="row">
-          <?php if($page['footer_first']): ?><div class="fcred col-sm-<?php print $footer_col; ?>">
+          <?php if($page['footer_first']): ?><div class="footer-block col-sm-<?php print $footer_col; ?>">
             <?php print render ($page['footer_first']); ?>
           </div><?php endif; ?>
-          <?php if($page['footer_second']): ?><div class="fcred col-sm-<?php print $footer_col; ?>">
+          <?php if($page['footer_second']): ?><div class="footer-block col-sm-<?php print $footer_col; ?>">
             <?php print render ($page['footer_second']); ?>
           </div><?php endif; ?>
-          <?php if($page['footer_third']): ?><div class="fcred col-sm-<?php print $footer_col; ?>">
+          <?php if($page['footer_third']): ?><div class="footer-block col-sm-<?php print $footer_col; ?>">
             <?php print render ($page['footer_third']); ?>
           </div><?php endif; ?>
-          <?php if($page['footer_fourth']): ?><div class="fcred col-sm-<?php print $footer_col; ?>">
+          <?php if($page['footer_fourth']): ?><div class="footer-block col-sm-<?php print $footer_col; ?>">
             <?php print render ($page['footer_fourth']); ?>
           </div><?php endif; ?>
         </div>
@@ -234,7 +234,7 @@
     <div class="container">
       <div class="row">
         <div class="fcred col-sm-12">
-          <?php print t('Copyright pmbulgaria.com'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>. <?php print t('Created by PM Gang FFW'); ?>  
+          <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>. <?php print t('Created by'); ?>  <a href="http://drupal-now.dd:8083/" target="_blank">PM Gang FFW</a>.
         </div>
       </div>
     </div>
