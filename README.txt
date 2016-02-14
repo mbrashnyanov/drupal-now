@@ -1,5 +1,5 @@
 
-CONTENTS OF THIS FILE - SAMO CSKA !!!
+CONTENTS OF THIS FILE - FFW
 ---------------------
 
  * About Drupal
