@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 
 CONTENTS OF THIS FILE - FFW
+=======
+sadf asdf
+sad f
+sad 
+sad 
+sad f
+CONTENTS OF THIS FILE - SAMO CSKA
+>>>>>>> 5722136af420abc217894a3626a37728fc190308
 ---------------------
 
  * About Drupal
