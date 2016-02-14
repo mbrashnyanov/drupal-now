@@ -10,7 +10,7 @@
 function content_type_article_taxonomy_default_vocabularies() {
   return array(
     'tags' => array(
-      'name' => 'Tags',
+      'name' => 'Tags test 1',
       'machine_name' => 'tags',
       'description' => 'Use tags to group articles on similar topics into categories.',
       'hierarchy' => 0,
