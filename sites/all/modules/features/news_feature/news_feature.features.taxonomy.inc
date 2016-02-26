@@ -12,10 +12,10 @@ function news_feature_taxonomy_default_vocabularies() {
     'news_category' => array(
       'name' => 'News category',
       'machine_name' => 'news_category',
-      'description' => 'categories for News content type',
+      'description' => 'News category',
       'hierarchy' => 0,
       'module' => 'taxonomy',
-      'weight' => 0,
+      'weight' => -8,
       'rdf_mapping' => array(
         'rdftype' => array(
           0 => 'skos:ConceptScheme',
