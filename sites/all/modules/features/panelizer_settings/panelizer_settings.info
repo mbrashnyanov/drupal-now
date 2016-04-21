@@ -1,0 +1,16 @@
+name = Panelizer settings
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = menu
+dependencies[] = panelizer
+dependencies[] = workbench_v1
+features[features_api][] = api:2
+features[menu_links][] = management_panelizer:admin/config/content/panelizer
+features[user_permission][] = administer panelizer
+features[user_permission][] = administer panelizer node article defaults
+features[user_permission][] = administer panelizer node news defaults
+features[user_permission][] = administer panelizer node panel defaults
+features[user_permission][] = administer panelizer node webform defaults
+project path = sites/all/modules/features
